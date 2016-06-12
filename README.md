@@ -13,7 +13,7 @@ Algorithm of Code working:
 
 1.	Load the train.label, train.data, vocabulary.txt, test.label, test.data files using matlab script generator for file loading and store in the variables created with file name.
 
-2.	From train_lable compute the count of the documents appeared by the repeated values of the document numbers for 20 categories individually. Then compute the probability of the document occurance in category by dividing the count values with the total length of the train_label variable which is MLE.
+2.	From train_lable compute the count of the documents appeared by the repeated values of the document numbers for 20 categories individually. Then compute the probability of the document occurrence in category by dividing the count values with the total length of the train_label variable which is MLE.
 
 3.	 From the train.data, generate count_matrix by updating the count values which constitutes of segmenting the document IDS from each category to the corresponding group(category) using the train_label content as the row value.
 
