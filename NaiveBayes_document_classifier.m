@@ -231,7 +231,7 @@ k=1;                                                     % Intializing the varib
 doc_prob=zeros(20,1);                                    % Intializing the doc_matrix matrix with values zero
 for i=1:1:row_train_label                                
     if(train_label(i)==k)                                % Comparing the train lable content with the value k
-        doc_prob(k)=doc_prob(k)+1;                       % Updating the count of Value k occurance using k as index 
+        doc_prob(k)=doc_prob(k)+1;                       % Updating the count of Value k occurrence using k as index 
     else
         k=k+1;                                           % Incrementing value of k for comparing with next integer after the current K value
         doc_prob(k)=1;                                   % Initialising the document count to 1 since for the first Document count we will miss count
